@@ -1,3 +1,5 @@
+// 참고용
+
 /*
  * This file implements a buddy memory allocator, which is an allocator that
  * allocates memory within a fixed linear address range. It spans the address

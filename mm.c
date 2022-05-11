@@ -68,7 +68,7 @@ static void place(void *p, size_t size);
 static void list_add(void *p);
 static void list_remove(void *p);
 
-/* --------------------------------- block information  --------------------------------
+/* -------------------- block information  -----------------------
 
   * * * Free block * * *         
 
@@ -87,22 +87,7 @@ static void list_remove(void *p);
 ---------------------------
 
 
-  * * * init block * * *         
-
----------------------------
-|      block size     | 1 |   allocated 1:True 0:False
----------------------------
-|   next pointer (pred)   |   
----------------------------
-|   prev pointer (succ)   |
----------------------------
-|      pro footer     | 1 |
----------------------------
-|      epil header    | 1 |
----------------------------
-
-
-// --------------------------------- end of block information ------------------------------- */
+// ------------------- end of block information --------------------- */
 
 int mm_init(void) {   
     if((heap_listp = mem_sbrk(6*WSIZE)) == (void *)-1)
@@ -214,6 +199,7 @@ static void list_add(void *p){
     PRED_P(SUCC_P(heap_listp)) = p;
     SUCC_P(heap_listp) = p;
 }
+
 static void list_remove(void *p){
     SUCC_P(PRED_P(p)) = SUCC_P(p);
     PRED_P(SUCC_P(p)) = PRED_P(p);

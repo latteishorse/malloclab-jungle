@@ -1,3 +1,6 @@
+// 작성하다 꼬인 코드
+// 기록용으로 남겨둡니다.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
