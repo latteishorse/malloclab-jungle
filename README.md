@@ -26,8 +26,8 @@
 
 - make explicit allocator 
 	- test score `82/100`
-	
-<center><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1b3c2eb4-25ef-4ace-942d-8716a0f1a2f2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220511T105929Z&X-Amz-Expires=86400&X-Amz-Signature=323f89bd672da7c53c4d605d129fb99b5de6663c44b843965fe61a5115077375&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400" height="70"></center>
+<!-- 	
+<center><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1b3c2eb4-25ef-4ace-942d-8716a0f1a2f2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220511T105929Z&X-Amz-Expires=86400&X-Amz-Signature=323f89bd672da7c53c4d605d129fb99b5de6663c44b843965fe61a5115077375&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400" height="70"></center> -->
 
 - study segregated list allocator
 
@@ -39,7 +39,7 @@
 ### `Sun. 08`
 - implicit score `54/100` (+1 score than yesterday)
 
-<center><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c989d13d-66b9-489f-b8cd-7eac836a4cd6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220510%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220510T134219Z&X-Amz-Expires=86400&X-Amz-Signature=6479cb5abec138a0cfa9e817cb0e69d814ac3764fcbc47c42bc60cdfd927a876&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400" height="70"></center>
+<!-- <center><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c989d13d-66b9-489f-b8cd-7eac836a4cd6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220510%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220510T134219Z&X-Amz-Expires=86400&X-Amz-Signature=6479cb5abec138a0cfa9e817cb0e69d814ac3764fcbc47c42bc60cdfd927a876&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400" height="70"></center> -->
 
 
 - study explicit list allocator
